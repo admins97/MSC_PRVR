@@ -1,4 +1,4 @@
-# Implementations for Mitigating Semantic Collapse in Partially Relevant Video Retrieval
+# [NeurIPS 2025] Mitigating Semantic Collapse in Partially Relevant Video Retrieval
 
 ## Train
 To train our MSC, use follow instructions:
