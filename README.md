@@ -3,10 +3,13 @@
 > WonJun Moon*, MinSeok Jung*, Gilhan Park, Tae-Young Kim, Cheol-Ho Cho, Woojin Jun, Jae-Pil Heo <br>
 > Sungkyunkwan University
 
-##### [[Arxiv](https://arxiv.org/abs/2510.27432)] [[OpenReview](https://openreview.net/forum?id=Wlpf0Vg4yU)]
+##### [[Paper](https://arxiv.org/abs/2510.27432)] [[OpenReview](https://openreview.net/forum?id=Wlpf0Vg4yU)]
+
+<img width="80%" alt="Overview" src="https://github.com/user-attachments/assets/f50cfef2-10e8-4434-abf6-df8973777196" />
 
 ## 🔖 Abstract
 Partially Relevant Video Retrieval (PRVR) seeks videos where only part of the content matches a text query. Existing methods treat every annotated text–video pair as a positive and all others as negatives, ignoring the rich semantic variation both within a single video and across different videos. Consequently, embeddings of both queries and their corresponding video‐clip segments for distinct events within the same video collapse together, while embeddings of semantically similar queries and segments from different videos are driven apart. This limits retrieval performance when videos contain multiple, diverse events. This paper addresses the aforementioned problems, termed as semantic collapse, in both the text and video embedding spaces. We first introduce Text Correlation Preservation Learning, which preserves the semantic relationships encoded by the foundation model across text queries. To address collapse in video embeddings, we propose Cross-Branch Video Alignment (CBVA), a contrastive alignment method that disentangles hierarchical video representations across temporal scales. Subsequently, we introduce order-preserving token merging and adaptive CBVA to enhance alignment by producing video segments that are internally coherent yet mutually distinctive. Extensive experiments on PRVR benchmarks demonstrate that our framework effectively prevents semantic collapse and substantially improves retrieval accuracy.
+
 
 ## 📑 Datasets (CLIP Features)
 > <b> [TVR](https://drive.google.com/file/d/1noQ5XkefygBr9Yq4b5E3AJ0b2wpCdPCI/view?usp=drive_link)</b>  <br>
@@ -46,3 +49,7 @@ year={2025},
 url={https://openreview.net/forum?id=Wlpf0Vg4yU}
 }
 ```
+
+## ☑️ Acknowledgement
+Our implementation is built upon the [GMMFormerV2](https://github.com/huangmozhi9527/GMMFormer_v2).
+
