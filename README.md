@@ -9,9 +9,9 @@
 Partially Relevant Video Retrieval (PRVR) seeks videos where only part of the content matches a text query. Existing methods treat every annotated text–video pair as a positive and all others as negatives, ignoring the rich semantic variation both within a single video and across different videos. Consequently, embeddings of both queries and their corresponding video‐clip segments for distinct events within the same video collapse together, while embeddings of semantically similar queries and segments from different videos are driven apart. This limits retrieval performance when videos contain multiple, diverse events. This paper addresses the aforementioned problems, termed as semantic collapse, in both the text and video embedding spaces. We first introduce Text Correlation Preservation Learning, which preserves the semantic relationships encoded by the foundation model across text queries. To address collapse in video embeddings, we propose Cross-Branch Video Alignment (CBVA), a contrastive alignment method that disentangles hierarchical video representations across temporal scales. Subsequently, we introduce order-preserving token merging and adaptive CBVA to enhance alignment by producing video segments that are internally coherent yet mutually distinctive. Extensive experiments on PRVR benchmarks demonstrate that our framework effectively prevents semantic collapse and substantially improves retrieval accuracy.
 
 ## 📑 Datasets (CLIP Features)
-> <b> [TVR](link)</b>  <br>
-> <b> [ActivityNet-Captions](link)</b>  <br>
-> <b> [Charades](link)</b>  <br>
+> <b> [TVR](https://drive.google.com/file/d/1noQ5XkefygBr9Yq4b5E3AJ0b2wpCdPCI/view?usp=drive_link)</b>  <br>
+> <b> [ActivityNet-Captions](https://drive.google.com/file/d/1WAhc_HUkapy6pAU3QywLHQX0hQ5KX9E3/view?usp=drive_link)</b>  <br>
+> <b> [Charades](https://drive.google.com/file/d/1GxedM5ycq9X__HlFdCwgBe6pNDnaN8T9/view?usp=drive_link)</b>  <br>
 > <b> [QVHighlights](link)</b>  <br>
 
 ## 🚀 Training
