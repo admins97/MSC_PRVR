@@ -15,7 +15,7 @@ Partially Relevant Video Retrieval (PRVR) seeks videos where only part of the co
 > <b> [TVR](https://drive.google.com/file/d/1noQ5XkefygBr9Yq4b5E3AJ0b2wpCdPCI/view?usp=drive_link)</b>  <br>
 > <b> [ActivityNet-Captions](https://drive.google.com/file/d/1WAhc_HUkapy6pAU3QywLHQX0hQ5KX9E3/view?usp=drive_link)</b>  <br>
 > <b> [Charades](https://drive.google.com/file/d/1GxedM5ycq9X__HlFdCwgBe6pNDnaN8T9/view?usp=drive_link)</b>  <br>
-> <b> [QVHighlights](link)</b>  <br>
+> <b> [QVHighlights](https://drive.google.com/file/d/1H6wtB2pkco4jtRy1gnn-PcfVyZDmojzQ/view?usp=sharing)</b>  <br>
 
 ## 🚀 Training
 To train our MSC, use follow instructions:
